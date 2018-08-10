@@ -1,0 +1,49 @@
+/*=======first-button=====*/
+button {
+    margin: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+  .first-button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+  }
+  @keyframes background-color {
+    100%{
+      background-color: #4791d0;
+    }
+  }
+  .second-button{
+      animation-name: rainbow;
+      animation-duration: 6s;
+  }
+  @keyframes rainbow{
+      0% {
+          background-color: red; 
+      }
+      14% {
+          background-color: orange; 
+      }
+      28% {
+          background-color: yellow;
+      }
+      42% {
+          background-color: green;
+      }
+      56% {
+          background-color: lightskyblue;
+      }
+      70% {
+          background-color: blue
+          ;
+      }
+      84% {
+          background-color: violet;
+      }
+      100% {
+          background-color: purple;
+      }
+  }
+  /*=======end first-button====*/
